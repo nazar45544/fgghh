@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <p><img class="naz" src="https://inlviv.in.ua/wp-content/uploads/2018/03/ukraine-e1378712033712.jpg"></p>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+          <a class="button" href="https://uk.wikipedia.org/wiki/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0">Про міста</a>
+            
+        </header>
+        <nav>
+            <h1>Україна понад Усе</h1>
+        </nav>
+        <main>
+            <h1>Байрактар</h1>
+            <section class="info">
+                <article>
+                   <h2>кидає бомби суперово</h2>
+                    <img src="https://armyinform.com.ua/wp-content/uploads/2021/10/a999588c138b80df6b1fc88180a957f7-960x540.jpg" width="600px" height="500px"/><br>
+                    <b> Створенно для Українців</b><br>
+                   <a target="_blank" href="https://uk.wikipedia.org/wiki/Bayraktar_TB2">детальніше</a>
+                </article>
+                <article>
+                    <h2>Джавелін</h2>
+                    <img src="https://s0.rbk.ru/v6_top_pics/media/img/3/58/755929931892583.jpg" width="500px" height="350px"/><br>
+                    <b>Справляється з танками на Ура</b><br>
+                    <a target="_blank" href="https://uk.wikipedia.org/wiki/FGM-148_Javelin">детальніше</a>
+                </article>
+                <article>
+                    <h2>Слава Україні</h2><br>
+                    <img src="https://i.pinimg.com/736x/97/da/61/97da61ddaa18f29e11eded6554822d37.jpg" width="500px" height="300px"/><br>
+
+                    <iframe width="750" height="350" src="https://www.youtube.com/embed/hgkRguImrT4" title="Неймовірне відео про красу української землі" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    
+                </article>
+                <article>
+                    <h2>Героям Слава</h2>
+                    <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/58C3/production/_118832722_slava_reu.jpg" width="400px" height="300px"/>
+                </article>
+            </section>
+            <img src="https://i.ytimg.com/vi/UiTphBsOiVg/maxresdefault.jpg" width="750" height="270"/>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
+body {
+    font-family: sans-serif;
+   text-align: center;
+   background: linear-gradient(to bottom, #ffff00 0%, #00ccff 100%);
+
+}
+head {
+    background-color: #ffff00;
+}
+
+header {
+     background-color: #ffff00;
+    text-align: center;
+    justify-content : space-between;
+    padding: ;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+.button {
+    background-color: #ffe522;
+    text-align: center;
+    color: rgb(0, 166, 255);
+    text-decoration: none;
+    padding:  11px;
+    font-size: 24px;
+    border-radius:20px;
+}
+.naz {
+      background-color:#ffff00;
+    width: 200px;
+    height: 149px;
+     text-align: center
+
+
+nav {
+    background-color: #36bbce;
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    background-color: #36bbce;
+    font-size: 26px;
+    color: yellow;
+    text-decoration: none;
+}
+
+h1 {
+    background-color: #ffff00;
+    background-color: #36bbce;
+    color: rgb(255, 225, 0);
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+
+    background-color: #36bbce;
+    font-size: 24px;
+    
+}
+
+.info {
+    text-align: center;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(230, 227, 23);
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: gold;
+    color: black;
+    box-shadow: 3px 5px 10px 10px gold;
+}
+
+article {
+    background-color: rgb(64, 0, 255);
+    padding:15px ;
+    width: 400px;
+    margin:15px ;
+}
+
+
+footer {
+    background-color:#36bbce;
+    padding:4px ;
+    display: flex;
+    background-color: #36bbce;
+    margin: 30px;
+}
+
+footer a {
+    background-color: #36bbce
+    margin-right: ;
+}
+
